@@ -110,3 +110,21 @@ p {
     word-spacing: 5px;
     line-height: 30px;
 }
+
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+}
+
+.copyright{
+    position: absolute;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #cccccc;
+    bottom: 10px;
+    left:40%;
+}
