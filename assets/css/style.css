@@ -164,8 +164,7 @@ p {
 }
 
 .pfText:hover, .pfText:focus {
-    color: #4aaaa5;
-    background-color: rgb(223, 223, 223);
+    background-color:#166864;
 }
 
 .contact {
@@ -211,6 +210,6 @@ textarea {
 }
 
 .inputBtn:hover, .inputBtn:focus {
-    color: #4aaaa5;
-    background-color: rgb(223, 223, 223);
+    background-color: #166864;
+    cursor: pointer;
 }
