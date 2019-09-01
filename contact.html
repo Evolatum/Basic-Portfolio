@@ -3,48 +3,54 @@
     
     <head>
         <meta charset="UTF-8">
-        <title> SMVO - Contact </title>
-
-        <!-- Link to external CSS -->
+        <title> SMVO - Contact</title>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
-        <!-- Logo -->
-        <span class="logo">Santiago Martinez Vara Ortiz</span>
-       
-        <!-- About Link -->
-        <a href="index.html">About</a>
-
-        <!-- Portfolio Link -->
-        <a href="portfolio.html">Portfolio</a>
-
-        <!-- Contact Link-->
-        <a href="contact.html">Contact</a>
-
-        <br> <br>
-
+        
         <!-- Header -->
-        <h1>Contact</h1>
-        <hr>
+        <div class="header clearfix">
 
-        <!-- Contact Box (WIP W3School) -->
-        <div class="container">
+            <div class="nav clearfix">
+
+                <span class="logo">Santiago MVO</span>
+                
+                <div class="links">
+                    <a href="index.html" class="link" id="rightLine">About</a>
+                    <a href="portfolio.html" class="link" id="rightLine">Portfolio</a>
+                    <a href="contact.html" class="link">Contact</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Content -->
+        <div class="content clearfix">
+            <h1>Contact</h1>
+            <hr class="hr1">
+            
             <form>
-              <span class="content">Name</span> <br>
-              <input type="text" id="name" name="name" placeholder="John Smith"> <br>
+              <span class="contact">Name</span> <br>
+              <input type="text" id="name" name="name" class="inputBox" placeholder="John Smith"> <br>
 
-              <span class="content">Email</span> <br>
-              <input type="text" id="email" name="email" placeholder="example@gmai.com"> <br>
+              <span class="contact">Email</span> <br>
+              <input type="text" id="email" name="email" class="inputBox" placeholder="example@gmai.com"> <br>
 
-              <span class="content">Message</span> <br>
-              <textarea id="message" name="message"  style="height:200px"></textarea>
+              <span class="contact">Message</span> <br>
+              <textarea id="message" name="message"></textarea>
           
-              <input type="submit" value="Submit">
+              <input type="submit" class="inputBtn" value="Submit">
           
             </form>
-          </div> 
+            
+        </div>
 
+        <!-- Footer -->
+        <div class="footer clearfix">
+            <span class="copyright">Copyright Santiago Martinez Vara Ortiz &copy;</span>
+        </div>
 
     </body>
 
