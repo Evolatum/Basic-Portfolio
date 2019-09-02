@@ -22,7 +22,7 @@ body {
 }
 
 .nav {
-    width: 950px;
+    width: 960px;
     margin: auto;
 }
 
@@ -52,6 +52,7 @@ body {
     font-size: 18px;
     color: #999999;
     margin: 10px;
+    margin-right:0;
 }
 
 .link:hover, link:focus {
@@ -62,6 +63,7 @@ body {
     border-right: 1px solid #cccccc;
     padding-right: 30px;
     margin-left: 20px;
+    margin-right: 10px;
 }
 
 .line {
@@ -74,7 +76,7 @@ body {
 
 .content {
     position: relative;
-    width: 870px;
+    width: 880px;
     border: 1px solid #cccccc;
     background-color: white;
     margin:auto;
