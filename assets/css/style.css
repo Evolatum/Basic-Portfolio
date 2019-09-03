@@ -81,7 +81,9 @@ body {
     background-color: white;
     margin:auto;
     margin-top: 120px;
-    margin-bottom: 100px;
+    /* Fix to add scroll bar*/
+    margin-bottom: 300px;
+    /*margin-bottom: 100px;*/
     padding: 40px;
 }
 
