@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title> SMVO - Contact</title>
+        <!--<link href="assets/css/reset.css" rel="stylesheet" type="text/css">-->
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     </head>
 
@@ -14,12 +15,12 @@
 
             <div class="nav clearfix">
 
-                <span class="logo">Santiago MVO</span>
+                <span class="logo unselectable">Santiago MVO</span>
                 
                 <div class="links">
                     <a href="index.html" class="link" id="rightLine">About</a>
                     <a href="portfolio.html" class="link" id="rightLine">Portfolio</a>
-                    <a href="contact.html" class="link">Contact</a>
+                    <span class="nolink unselectable">Contact</span>
                 </div>
 
             </div>
@@ -33,10 +34,10 @@
             
             <form>
               <span class="contact">Name</span> <br>
-              <input type="text" id="name" name="name" class="inputBox" placeholder="John Smith"> <br>
+              <input type="text" id="name" name="name" class="inputBox" placeholder="John Smith" autocomplete="off"> <br>
 
               <span class="contact">Email</span> <br>
-              <input type="text" id="email" name="email" class="inputBox" placeholder="example@gmail.com"> <br>
+              <input type="text" id="email" name="email" class="inputBox" placeholder="example@gmail.com" autocomplete="off"> <br>
 
               <span class="contact">Message</span> <br>
               <textarea id="message" name="message"></textarea>

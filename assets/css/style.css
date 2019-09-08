@@ -73,13 +73,13 @@ hr.hrHeader {
     text-decoration: none;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
     font-size: 18px;
-    color: #227093;
+    color: #34ace0;
     margin: 30px;
     margin-right:0;
 }
 
 .link:hover, link:focus, link:active, link:visited, link:enabled{
-    color: #34ace0;
+    color: #227093;
     border: none;
     outline: none;
 }
@@ -113,7 +113,7 @@ h1 {
 
 hr.hr1 {
     border:0;
-    border-top: 1px solid #706fd3;
+    border-top: 1px solid black;
     margin: 18px 0;
 }
 
@@ -170,7 +170,7 @@ p {
 
 .contact {
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
-    color: #777777;
+    color: #e0ddd5;
     font-size: 18px;
     text-anchor: initial; 
     word-spacing: 5px;
@@ -181,38 +181,60 @@ p {
     width: 99%;
     height: 25px;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
-    color: #777777;
+    color: #e0ddd5;
     font-size: 15px;
     padding-left: 8px;
     margin-bottom: 15px;
-    border: 1px solid #cccccc;
+    background-color: transparent;
+    border: 1px solid #706fd3;
+}
+
+.inputBox:active, .inputBox:focus, .inputBox:hover {
+    outline: 2px solid #34ace0;
+    outline-offset: -1px;
+}
+
+.inputBox::placeholder {
+    color:#706fd3;
 }
 
 textarea {
     width: 99%;
     height: 200px;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
-    color: #777777;
+    color: #e0ddd5;
     font-size: 15px;
     padding-left: 8px;
     padding-top: 6px;
-    border: 1px solid #cccccc;
+    background-color: transparent;
+    border: 1px solid #706fd3;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea:active, textarea:focus, textarea:hover {
+    outline: 2px solid #34ace0;
+    outline-offset: -1px;
 }
 
 .inputBtn {
     margin-top: 15px;
-    width: 110px;
+    width: 90px;
     height: 35px;
     border: 0;
-    color: white;
+    color: #2c2c54;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
-    font-size: 15px;
-    background-color: #4aaaa5;
+    font-size: 18px;
+    background-color: #34ace0;
 }
 
 .inputBtn:hover, .inputBtn:focus {
-    background-color: #166864;
+    background-color: #227093;
     cursor: pointer;
+    outline: none;
 }
 
 .unselectable {
