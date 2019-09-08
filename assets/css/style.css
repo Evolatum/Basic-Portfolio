@@ -141,12 +141,12 @@ p {
     height: 200px;
     margin-right: 50px;
     margin-bottom: 60px;
+    background-color: #34ace0;
+    transition: background-color 0.3s;
 }
 
-.pfImg {
-    position: absolute;
-    margin: 0;
-    z-index: 1;
+.pfBlock:hover, .pfBlock:focus {
+    background-color:#227093;
 }
 
 .pfText {
@@ -156,18 +156,19 @@ p {
     width: 300px;
     font-size: 18px;
     margin: 0;
-    background-color: #34ace0;
     color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     bottom: 40px;
+    background-color: inherit;
     z-index: 4;
-    transition: background-color 0.3s;
 }
 
-.pfText:hover, .pfText:focus {
-    background-color:#227093;
+.pfImg {
+    position: absolute;
+    margin: 0;
+    z-index: 1;
 }
 
 .contact {
