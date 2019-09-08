@@ -76,6 +76,7 @@ hr.hrHeader {
     color: #34ace0;
     margin: 30px;
     margin-right:0;
+    transition: color 0.3s;
 }
 
 .link:hover, link:focus, link:active, link:visited, link:enabled{
@@ -155,17 +156,18 @@ p {
     width: 300px;
     font-size: 18px;
     margin: 0;
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #34ace0;
+    color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     bottom: 40px;
     z-index: 4;
+    transition: background-color 0.3s;
 }
 
 .pfText:hover, .pfText:focus {
-    background-color:#166864;
+    background-color:#227093;
 }
 
 .contact {
@@ -229,6 +231,7 @@ textarea:active, textarea:focus, textarea:hover {
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
     font-size: 18px;
     background-color: #34ace0;
+    transition: background-color 0.3s;
 }
 
 .inputBtn:hover, .inputBtn:focus {
