@@ -36,11 +36,11 @@ body::-webkit-scrollbar {
 
 .shadow {
     width: 99.99%;
-    height: 15px;
+    height: 20px;
     background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
     margin:0;
     position: relative;
-    bottom:-25px;
+    bottom: 0;
     left: 0;
     z-index: 11; 
 }
@@ -50,8 +50,11 @@ body::-webkit-scrollbar {
     margin: auto;
 }
 
+hr.hrHeader {
+    display: none;
+}
+
 .logo {
-    position: absolute;
     height: 32px;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
     font-size: 30px;
@@ -112,9 +115,9 @@ h1 {
     margin: 0;
 }
 
-hr.hr1 {
+hr.hrContent {
     border:0;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     margin: 18px 0;
 }
 
@@ -137,10 +140,9 @@ p {
 .pfBlock {
     position: relative;
     float: left;
-    width: 300px;
-    height: 200px;
-    margin-right: 50px;
-    margin-bottom: 60px;
+    width: 420px;
+    height: 300px;
+    margin-bottom: 40px;
     background-color: #34ace0;
     transition: background-color 0.3s;
 }
@@ -149,11 +151,14 @@ p {
     background-color:#227093;
 }
 
+.marginRight {
+    margin-right: 40px;
+}
 .pfText {
     position: absolute;
     text-decoration: none;
     font-family: 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
-    width: 300px;
+    width: inherit;
     font-size: 18px;
     margin: 0;
     color: black;
@@ -169,6 +174,7 @@ p {
     position: absolute;
     margin: 0;
     z-index: 1;
+    width: 420px;
 }
 
 .contact {
@@ -251,35 +257,79 @@ textarea:active, textarea:focus, textarea:hover {
 }
 
 @media screen and (max-width: 992px) {
+    .nav {
+        width: 500px;
+    }
+
+    .link {
+        margin-left: 15px;
+    }
+
+    .nolink {
+        margin-left: 15px;
+    }
     .content {
-        padding-left: 4.1%;
-        padding-right: 4.1%;
-        width: 90.3%;
-        background-color: rgb(255, 255, 137);
+        width: 420px;
     }
 
-    #imgAbout {
-        width: 34%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .content {
-        background-color: rgb(255, 158, 158);
-    }
-
-    #imgAbout {
-        width: 230px;
+    .marginRight{
+        margin-right:0;
     }
 }
 
 @media screen and (max-width: 576px) {
+    .header {
+        height: 132px;
+    }
+
+    .nav {
+        width: 390px;
+    }
+
+    .logo {
+        margin-left: 98px;
+    }
+
+    .links {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 66px;
+    }
+
+    .link {
+        margin-left: 35px;
+    }
+
+    .nolink {
+        margin-left: 35px;
+    }
+
+    hr.hrHeader {
+        position: relative;
+        display: block;
+        width: 390px;
+        border:0;
+        border-top: 2px solid black;
+        margin: -2px;
+        float: left;
+    }
+
     .content {
-        background-color: rgb(143, 219, 255);
+        width: 350px;
+        padding: 20px;
+        margin-top: 160px;
+    }
+
+    .pfBlock {
+        width: 350px;
+        height: 250px;
     }
 
     #imgAbout {
-        margin-left: auto;
-        float: none;
+        width: 350px;
+    }
+
+    .pfImg {
+        width: 350px;
     }
 }
