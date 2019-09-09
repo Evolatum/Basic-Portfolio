@@ -286,6 +286,12 @@ textarea:active, textarea:focus, textarea:hover {
         height: 132px;
     }
 
+    .shadow {
+        height: 13px;
+        position: relative;
+        bottom: 3px;
+    }
+
     .nav {
         width: 390px;
     }
