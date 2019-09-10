@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
     clear: both;
 }
 
-.header {
+.headerContainer {
     position: absolute;
     height: 80px;
     width: 99.99%;
@@ -27,7 +27,6 @@ body::-webkit-scrollbar {
     top:0;
     left:0;
     background: #2c2c54;
-    /*border-bottom: 1px solid #706fd3;*/
     position: fixed;
     top:0;
     left: 0;
@@ -45,7 +44,7 @@ body::-webkit-scrollbar {
     z-index: 11; 
 }
 
-.nav {
+.header {
     width: 960px;
     margin: auto;
 }
@@ -66,7 +65,11 @@ hr.hrHeader {
     margin:0;
 }
 
-.links {
+#logoShort {
+    display: none;
+}
+
+.linksContainer {
     float: right;
     overflow: none;
     padding-top: 33px;
@@ -261,8 +264,16 @@ textarea:active, textarea:focus, textarea:hover {
 }
 
 @media screen and (max-width: 992px) {
-    .nav {
+    .header {
         width: 500px;
+    }
+
+    #logoLong {
+        display: none;
+    }
+
+    #logoShort {
+        display: block;
     }
 
     .link {
@@ -282,7 +293,7 @@ textarea:active, textarea:focus, textarea:hover {
 }
 
 @media screen and (max-width: 576px) {
-    .header {
+    .headerContainer {
         height: 132px;
     }
 
@@ -292,7 +303,7 @@ textarea:active, textarea:focus, textarea:hover {
         bottom: 3px;
     }
 
-    .nav {
+    .header {
         width: 390px;
     }
 
@@ -300,7 +311,7 @@ textarea:active, textarea:focus, textarea:hover {
         margin-left: 98px;
     }
 
-    .links {
+    .linksContainer {
         padding-top: 15px;
         padding-bottom: 15px;
         margin-right: 66px;
