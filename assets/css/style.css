@@ -164,6 +164,7 @@ p {
 .pfBlock {
     position: relative;
     float: left;
+    overflow: hidden;
     width: 420px;
     height: 300px;
     margin-bottom: 40px;
