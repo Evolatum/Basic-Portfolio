@@ -124,13 +124,18 @@ hr.hrHeader {
     margin-right:0;
 }
 
+.main{
+    margin-top: 100px;
+    margin-bottom:250px;
+}
+
 .content {
     position: relative;
     width: 880px;
     background-color: #2c2c54;
     margin:auto;
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 40px;
 }
 
@@ -149,6 +154,7 @@ hr.hrContent {
 }
 
 #imgAbout {
+    width:300px;
     margin-top: 7px;
     margin-right: 10px;
     margin-bottom: 10px; 
@@ -347,10 +353,13 @@ textarea:active, textarea:focus, textarea:hover {
         float: left;
     }
 
+    .main{
+        margin-top: 160px;
+    }
+
     .content {
         width: 350px;
         padding: 20px;
-        margin-top: 160px;
     }
 
     .pfBlock {
