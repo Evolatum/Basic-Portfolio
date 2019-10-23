@@ -22,14 +22,15 @@
                 <hr class="hrHeader">
                 <div class="linksContainer">
                     <!--<span class="nolink unselectable">About</span>-->
-                    <a href="#top" class="link">About</a>
-                    <a href="#linkPortfolio" class="link">Portfolio</a>
-                    <a href="#linkContact" class="link">Contact</a>
+                    <span class="link" id="aboutLink">About</span>
+                    <span class="link" id="portfolioLink">Portfolio</span>
+                    <span class="link" id="contactLink">Contact</span>
                 </div>
             </div>
             <figure class="shadow"></figure>
         </div>
 
+        <!-- Content -->
         <div class="main">
             <!-- About -->
             <div class="content clearfix">
@@ -58,7 +59,7 @@
             </div>
 
             <!-- Portfolio  -->
-            <div class="content clearfix">
+            <div class="content clearfix" id="portfolio">
                 <h1>Portfolio</h1>
                 <hr class="hrContent">
 
@@ -92,7 +93,6 @@
                 </a>
 
             </div>
-            <div id="linkContact"></div>
 
             <!-- Contact -->
             <div class="content clearfix" id="contact">
@@ -115,6 +115,9 @@
                 
             </div>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/script.js"></script>
     </body>
 
 </html>

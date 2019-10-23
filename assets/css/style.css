@@ -115,6 +115,7 @@ hr.hrHeader {
     color: #227093;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .nolink { 
