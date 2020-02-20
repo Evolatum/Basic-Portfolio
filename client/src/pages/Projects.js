@@ -10,7 +10,7 @@ function Projects() {
   return (
     <Container>
       <Row>
-        <h1 className="header center">Projects</h1>
+        <h1 className="header center cyan-text">Projects</h1>
       </Row>
       <Row>
         {projects.map(project=>(

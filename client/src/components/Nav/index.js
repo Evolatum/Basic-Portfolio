@@ -21,7 +21,7 @@ function Nav() {
     <div className="navbar-fixed">
       <nav className="cyan darken-2">
         <div className="nav-wrapper">
-          <a href="/" className="brand-logo left">SMVO</a>
+          <a href="/" className="brand-logo left">Santiago MVO</a>
           <a href="#" data-target="ham-nav" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li className={locationState === "/about" ? "active" : "not-active"}><a href="/about">About</a></li>
