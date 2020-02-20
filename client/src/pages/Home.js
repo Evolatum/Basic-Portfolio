@@ -1,38 +1,32 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import Card from "../components/Card"
-import projectsImport from "./projects.json"
 
 function Home() {
-  var cardColSize="xl4 l6 m6 s12";
-  let projects = projectsImport.filter(project=>!project.hidden);
 
   return (
     <Container>
       <Row>
-        <h1 className="header center">Home</h1>
+        <h1 className="header center">About</h1>
       </Row>
       <Row>
-        {projects.map(project=>(
-          <Col size={cardColSize}>
-            <Card
-              key={project.title}
-              title={project.title}
-              linkPage={project.linkPage}
-              linkGithub={project.linkGithub}
-              content={project.content}
-              image={`/images/${project.image}`}
-              size="small"
-            />
-            </Col>
-        ))}
-        <Col size={cardColSize}>
-          <div style={{marginTop: "20px", marginBottom: "20px", marginLeft:"auto", marginRight:"auto"}} className="center">
-            <iframe src="https://www.youtube.com/embed/cPa5_lww0o0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""
-            width="260" height="300" frameborder="0"></iframe>
+        <Col size="s12">
+          <p className="left">
+            Full Stack Web Developer with a background in motion graphics and 2D animation, 
+            certified in Full Stack Development through a bootcamp imparted in conjunction by 
+            Tecnológico de Monterrey and Trilogy Education Services. Strengths in responsive web design 
+            and meeting deadlines. Great problem-solver with creative and quick solutions that 
+            feel right to the end user. Looking forward to developing and improving on websites 
+            and web-based applications as we evolve with web design.
+          </p>
+          <div class="row center">
+            <a href="https://docs.google.com/document/d/1wVLOKYvdWzK5wsPri1TnOVKKDRv46IA1eJwwTIvHIA0/edit?usp=sharing" 
+            className="btn-large waves-effect waves-light cyan" target="_blank" rel="noopener noreferrer">CV ENG</a>&nbsp;&nbsp;
+            <a href="https://docs.google.com/document/d/1mT0pvUKIP9EwCIu72oahvS4pDSK8GUbndFSqGaFyHNk/edit?usp=sharing" 
+            className="btn-large waves-effect waves-light cyan" target="_blank" rel="noopener noreferrer">CV ESP</a>
           </div>
         </Col>
+      </Row>
+      <Row>
 
       </Row>
     </Container>
