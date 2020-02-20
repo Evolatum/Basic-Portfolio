@@ -1,0 +1,8 @@
+.card{
+    width: 260px;
+    margin: 20px auto;
+}
+
+.actionLink{
+    margin: 0 20px !important;
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "title":"Sketchy Books",
+        "linkPage":"https://sketchy-google-books.herokuapp.com/",
+        "linkGithub":"https://github.com/Evolatum/google-books",
+        "content":"A React-based Google Books Search app. Styled using Bootstrap based on Balsamiq design. Used MongoDB for saving books.",
+        "image":"google-books.png",
+        "hidden":false
+    },
+    {
+        "title":"Original Portfolio",
+        "linkPage":"https://evolatum.github.io/Portfolio/index.html",
+        "linkGithub":"https://github.com/Evolatum/Portfolio/tree/gh-pages",
+        "content":"Web-based portfolio using only custom CSS for design and responsiveness.",
+        "image":"original-portfolio.png",
+        "hidden":false
+    },
+    {
+        "title":"UA Scrapper",
+        "linkPage":"https://ua-scraper.herokuapp.com/",
+        "linkGithub":"https://github.com/Evolatum/UA_Scraper",
+        "content":"A web app that uses Cheerio to scrape articles and save them into MongoDB. Allows comments to be created and deleted for each article saved.",
+        "image":"ua.png",
+        "hidden":false
+    },
+    {
+        "title":"Jubilant Waffle",
+        "linkPage":"https://jubilantwaffle.herokuapp.com/",
+        "linkGithub":"https://github.com/juanpa-a/jubilant-waffle",
+        "content":"A team project game. Users can follow narrative paths and even create new ones. Created all starting story nodes (38), API routes and AJAX calls, as well as validation in each level.",
+        "image":"jubilant-waffle.png",
+        "hidden":false
+    },
+    {
+        "title":"HotS Click",
+        "linkPage":"https://evolatum.github.io/HotS-Click/",
+        "linkGithub":"https://github.com/Evolatum/HotS-Click",
+        "content":"A React-based memory game. Styled using Bootstrap with images imported from HotS API.",
+        "image":"hots.png",
+        "hidden":false
+    },
+    {
+        "title":"Burgerer",
+        "linkPage":"https://burgerer.herokuapp.com/",
+        "linkGithub":"https://github.com/Evolatum/burger",
+        "content":"A Handlebars.js exercise app thats logs burgers with MySQL and a homemade ORM. Styled using Bootstrap with a unique color palette.",
+        "image":"burger.png",
+        "hidden":false
+    },
+    {
+        "title":"Friendbook",
+        "linkPage":"https://friend-book-finder.herokuapp.com/",
+        "linkGithub":"https://github.com/Evolatum/FriendFinder",
+        "content":"An Express exercise app that tests compatibility based on book likes. Styled using Bootstrap with a clean form that allows users easy navigation.",
+        "image":"friendbook.png",
+        "hidden":false
+    },
+    {
+        "title":"Train Scheduler",
+        "linkPage":"https://evolatum.github.io/Train-Scheduler/",
+        "linkGithub":"https://github.com/Evolatum/Train-Scheduler",
+        "content":"A Firebase exercise app that saves train time data and provides up-to-date information with Moment.js. Styled using Bootstrap.",
+        "image":"train.png",
+        "hidden":false
+    },
+    {
+        "title":"GIFer",
+        "linkPage":"https://evolatum.github.io/Gif-er/",
+        "linkGithub":"https://github.com/Evolatum/Gif-er",
+        "content":"An exercise app that uses AJAX to call the GIPHY API to populate itself. The user can add favorite gifs to local storage. Styled using Bootstrap.",
+        "image":"GIFer.png",
+        "hidden":false
+    },
+    {
+        "title":"Trivia",
+        "linkPage":"https://evolatum.github.io/TriviaGame/",
+        "linkGithub":"https://github.com/Evolatum/TriviaGame",
+        "content":"A Trivia exercise game using jQuery to manipulate the DOM, and intervals to time responses. Styled using Bootstrap with a simple classroom board design",
+        "image":"trivia.png",
+        "hidden":false
+    },
+    {
+        "title":"RPG",
+        "linkPage":"https://evolatum.github.io/RPG/",
+        "linkGithub":"https://github.com/Evolatum/RPG",
+        "content":"An RPG exercise game using JS Classes and jQuery to respond to user choices. Styled using Bootstrap with images created with Reroll app.",
+        "image":"RPG.png",
+        "hidden":false
+    },
+    {
+        "title":"Hangman",
+        "linkPage":"https://evolatum.github.io/Word-Guess-Game/",
+        "linkGithub":"https://github.com/Evolatum/Word-Guess-Game",
+        "content":"A Javascript exersice game app. Each word is linked to an image and web page in wikipedia related to space. Styled with Bootstrap and added sound effects.",
+        "image":"hangmanOld.png",
+        "hidden":false
+    }
+]
