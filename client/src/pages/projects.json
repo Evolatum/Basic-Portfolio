@@ -75,7 +75,7 @@
         "title":"Trivia",
         "linkPage":"https://evolatum.github.io/TriviaGame/",
         "linkGithub":"https://github.com/Evolatum/TriviaGame",
-        "content":"A Trivia exercise game using jQuery to manipulate the DOM, and intervals to time responses. Styled using Bootstrap with a simple classroom board design",
+        "content":"A trivia exercise game using jQuery to manipulate the DOM, and intervals to time responses. Styled using Bootstrap with a simple classroom board design",
         "image":"trivia.png",
         "hidden":false
     },
@@ -93,6 +93,6 @@
         "linkGithub":"https://github.com/Evolatum/Word-Guess-Game",
         "content":"A Javascript exersice game app. Each word is linked to an image and web page in wikipedia related to space. Styled with Bootstrap and added sound effects.",
         "image":"hangmanOld.PNG",
-        "hidden":false
+        "hidden":true
     }
 ]

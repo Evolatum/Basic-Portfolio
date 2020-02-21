@@ -1,6 +1,11 @@
 .card{
-    width: 260px;
+    width: 350px;
     margin: 20px auto;
+    border: 1px solid #00838f;
+}
+
+.card-content{
+    border-top: 1px solid #00838f;
 }
 
 .actionLink{

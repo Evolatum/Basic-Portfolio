@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Card from "../components/Card"
+import IframeCard from "../components/IframeCard"
 import projectsImport from "./projects.json"
 
 function Projects() {
@@ -27,14 +28,12 @@ function Projects() {
             </Col>
         ))}
         <Col size={cardColSize}>
-          <div style={{marginTop: "20px", marginBottom: "20px", marginLeft:"auto", marginRight:"auto"}} className="center">
-            <iframe src="https://www.youtube.com/embed/cPa5_lww0o0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""
-            width="260" height="300" frameborder="0"></iframe>
-          </div>
+          <IframeCard
+            src={"https://www.youtube.com/embed/cPa5_lww0o0"}
+          />
         </Col>
-
-      </Row>
+       
+       </Row>
     </Container>
   );
 }
