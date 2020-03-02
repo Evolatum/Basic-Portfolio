@@ -1,5 +1,5 @@
 .card{
-    width: 350px;
+    width: 260px;
     margin: 20px auto;
     border: 1px solid #00838f;
 }
@@ -10,4 +10,10 @@
 
 .actionLink{
     margin: 0 20px !important;
+}
+
+@media only screen and (min-width : 993px) {
+    .card{
+        width: 350px;
+    }
 }

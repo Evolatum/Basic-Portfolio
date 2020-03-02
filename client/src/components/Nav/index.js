@@ -24,7 +24,7 @@ function Nav() {
           <a href="/" className="brand-logo left">Santiago MVO</a>
           <a href="#" data-target="ham-nav" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li className={locationState === "/about" ? "active" : "not-active"}><a href="/about">About</a></li>
+            <li className={locationState === "/" ? "active" : "not-active"}><a href="/">About</a></li>
             <li className={locationState === "/projects" ? "active" : "not-active"}><a href="/projects">Projects</a></li>
             <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contant">Contact</a></li>
           </ul>
@@ -32,7 +32,7 @@ function Nav() {
       </nav>
     </div>
     <ul className="sidenav right" id="ham-nav">
-      <li className={locationState === "/about" ? "active" : "not-active"}><a href="/about">About</a></li>
+      <li className={locationState === "/" ? "active" : "not-active"}><a href="/">About</a></li>
       <li className={locationState === "/projects" ? "active" : "not-active"}><a href="/projects">Projects</a></li>
       <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contant">Contact</a></li>
     </ul>

@@ -1,5 +1,13 @@
 [
     {
+        "title":"NTSG",
+        "linkPage":"https://shrouded-shore-54599.herokuapp.com/",
+        "linkGithub":"https://github.com/JoaquinValle/shrouded-shore",
+        "content":"A MERN full-stack team app. Styled with Materialize and heavily sectioned in React components; created app architecture and responsiveness, and helped with database models and API queries.",
+        "image":"ss.PNG",
+        "hidden":false
+    },
+    {
         "title":"Sketchy Books",
         "linkPage":"https://sketchy-google-books.herokuapp.com/",
         "linkGithub":"https://github.com/Evolatum/google-books",
@@ -77,7 +85,7 @@
         "linkGithub":"https://github.com/Evolatum/TriviaGame",
         "content":"A trivia exercise game using jQuery to manipulate the DOM, and intervals to time responses. Styled using Bootstrap with a simple classroom board design",
         "image":"trivia.png",
-        "hidden":false
+        "hidden":true
     },
     {
         "title":"RPG",

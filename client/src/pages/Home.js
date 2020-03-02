@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Row, Container } from "../components/Grid";
+import { Collapsible, CollapsibleItem} from "../components/Collapsible";
+import M from "materialize-css";
 
 function Home() {
+
+  useEffect(() => {
+    M.Collapsible.init(document.querySelectorAll('.collapsible'));
+  }, []);
 
   return (
     <Container>
@@ -37,7 +43,7 @@ function Home() {
           <h3 className="header center cyan-text">MERN Stack</h3>
         </Col>
         
-        <Col size="l6 offset-l3 m8 offset-m2 s12">
+        <Col size="l8 offset-l2 m10 offset-m1 s12">
           <p className="center">
             A widely preferred Stack, MERN gives a solid frame to any web application to build upon, 
             with both a back-end server and database, and a front-end responsive and single-page client.
@@ -46,37 +52,33 @@ function Home() {
             target="_blank" rel="noopener noreferrer">Materialize</a> can be added, or custom CSS be built
             for each specific project's necessities.
           </p>
+          <h6 className="center">
+            The MERN Stack is integrated by: 
+          </h6>
+          <Collapsible>
+            <CollapsibleItem title="MongoDB" link="https://www.mongodb.com" content="A document-oriented noSQL database 
+            using BSON, a JSON-based  structure that allows for quick data retrieval."/>
+            <CollapsibleItem title="Express" link="https://expressjs.com/" content="A flexible framework designed for 
+            serving web applications and APIs."/>
+            <CollapsibleItem title="React" link="https://reactjs.org/" content="A JS library developed by Facebook for 
+            building structured interfaces and single-page applications."/>
+            <CollapsibleItem title="Node.js" link="https://nodejs.org/" content="A JS runtime enviroment that allows 
+            for back-end servers to rely on JavaScript, unifying the Stack's development language."/>
+          </Collapsible>
         </Col>
       </Row>
 
       <Row>
-        <Col size="l3 m6 s12">
-          <div className="icon-block">
-            <h2 className="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 className="center">MongoDB</h5>
-            <p className="light">MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.</p>
-          </div>
+        <Col size="s12">
+          <h3 className="header center cyan-text">Responsive Apps</h3>
         </Col>
-        <Col size="l3 m6 s12">
-          <div className="icon-block">
-            <h2 className="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 className="center">Express</h5>
-            <p className="light">Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.</p>
-          </div>
-        </Col>
-        <Col size="l3 m6 s12">
-          <div className="icon-block">
-            <h2 className="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 className="center">React</h5>
-            <p className="light">React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.</p>
-          </div>
-        </Col>
-        <Col size="l3 m6 s12">
-          <div className="icon-block">
-            <h2 className="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 className="center">Node</h5>
-            <p className="light">Node.js is an open-source, cross-platform, JavaScript library that executes JavaScript code outside of a browser.</p>
-          </div>
+        
+        <Col size="l8 offset-l2 m10 offset-m1 s12">
+          <p className="center">
+            Aided by flexible grids, responsive web design aims for developed apps to accomodate to each user's screen
+            size, allowing applications to be seen and interacted with on any device: from a small smart-phone, to a large
+            desktop computer; with specific 'break-points' which change the layout and adapt to enhance the user's experience.
+          </p>
         </Col>
       </Row>
 

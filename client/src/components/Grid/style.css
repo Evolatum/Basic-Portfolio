@@ -1,0 +1,26 @@
+.row{
+    margin-bottom: 25px;
+}
+
+.container{
+    width:300px;
+    margin: 10px auto;
+}
+
+@media only screen and (min-width : 601px) {
+    .container{
+        width:560px;
+    }
+}
+
+@media only screen and (min-width : 993px) {
+    .container{
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width : 1201px) {
+    .container{
+        width:1150px;
+    }
+}
