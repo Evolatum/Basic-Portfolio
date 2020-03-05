@@ -1,13 +1,7 @@
-import React, { useEffect } from "react";
-import { Col, Row, Container } from "../components/Grid";
-import { Collapsible, CollapsibleItem} from "../components/Collapsible";
-import M from "materialize-css";
+import React from "react";
+import { Col, Row, Container } from "../utilities/Grid";
 
-function Home() {
-
-  useEffect(() => {
-    M.Collapsible.init(document.querySelectorAll('.collapsible'));
-  }, []);
+export function Home() {
 
   return (
     <Container>
@@ -55,16 +49,16 @@ function Home() {
           <h6 className="center">
             The MERN Stack is integrated by: 
           </h6>
-          <Collapsible>
-            <CollapsibleItem title="MongoDB" link="https://www.mongodb.com" content="A document-oriented noSQL database 
+          <div>
+            <div title="MongoDB" link="https://www.mongodb.com" content="A document-oriented noSQL database 
             using BSON, a JSON-based  structure that allows for quick data retrieval."/>
-            <CollapsibleItem title="Express" link="https://expressjs.com/" content="A flexible framework designed for 
+            <div title="Express" link="https://expressjs.com/" content="A flexible framework designed for 
             serving web applications and APIs."/>
-            <CollapsibleItem title="React" link="https://reactjs.org/" content="A JS library developed by Facebook for 
+            <div title="React" link="https://reactjs.org/" content="A JS library developed by Facebook for 
             building structured interfaces and single-page applications."/>
-            <CollapsibleItem title="Node.js" link="https://nodejs.org/" content="A JS runtime enviroment that allows 
+            <div title="Node.js" link="https://nodejs.org/" content="A JS runtime enviroment that allows 
             for back-end servers to rely on JavaScript, unifying the Stack's development language."/>
-          </Collapsible>
+          </div>
         </Col>
       </Row>
 
@@ -85,4 +79,3 @@ function Home() {
     </Container>
   );
 }
-export default Home;

@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import Card from "../components/Card"
 import IframeCard from "../components/IframeCard"
 import projectsImport from "./projects.json"
 
-function Projects() {
+export function Projects() {
   var cardColSize="xl4 l6 m6 s12";
   let projects = projectsImport.filter(project=>!project.hidden);
 
@@ -16,13 +15,13 @@ function Projects() {
       <Row>
         {projects.map(project=>(
           <Col size={cardColSize}>
-            <Card
+            <div
               key={project.title}
               title={project.title}
               linkPage={project.linkPage}
               linkGithub={project.linkGithub}
               content={project.content}
-              image={`/images/${project.image}`}
+              image={`/assets/images/${project.image}`}
               size="small"
             />
             </Col>
@@ -37,4 +36,3 @@ function Projects() {
     </Container>
   );
 }
-export default Projects;
