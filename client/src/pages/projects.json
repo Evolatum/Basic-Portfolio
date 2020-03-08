@@ -24,7 +24,7 @@
         "hidden":false
     },
     {
-        "title":"UA Scrapper",
+        "title":"UA Scraper",
         "linkPage":"https://ua-scraper.herokuapp.com/",
         "linkGithub":"https://github.com/Evolatum/UA_Scraper",
         "content":"A web app that uses Cheerio to scrape articles and save them into MongoDB. Allows comments to be created and deleted for each article saved.",
