@@ -1,0 +1,9 @@
+.fab{
+    color: #00bcd4;
+    font-size: 55px;
+    margin: 5px 20px;
+}
+
+.fab:hover{
+    color: #0097a7;
+}

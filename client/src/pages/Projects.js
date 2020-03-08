@@ -15,9 +15,8 @@ function Projects() {
       </Row>
       <Row>
         {projects.map(project=>(
-          <Col size={cardColSize}>
+          <Col size={cardColSize} key={project.title}>
             <Card
-              key={project.title}
               title={project.title}
               linkPage={project.linkPage}
               linkGithub={project.linkGithub}
@@ -29,6 +28,7 @@ function Projects() {
         ))}
         <Col size={cardColSize}>
           <IframeCard
+            title="Reel"
             src={"https://www.youtube.com/embed/cPa5_lww0o0"}
           />
         </Col>
