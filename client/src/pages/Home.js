@@ -29,7 +29,7 @@ function Home() {
 
       <Row>
         <Col size="s12">
-          <div class="row center">
+          <div className="row center">
             <a href="https://docs.google.com/document/d/1wVLOKYvdWzK5wsPri1TnOVKKDRv46IA1eJwwTIvHIA0/edit?usp=sharing" 
             className="btn-large waves-effect waves-light cyan" target="_blank" rel="noopener noreferrer">CV ENG</a>&nbsp;&nbsp;
             <a href="https://docs.google.com/document/d/1mT0pvUKIP9EwCIu72oahvS4pDSK8GUbndFSqGaFyHNk/edit?usp=sharing" 

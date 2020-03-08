@@ -22,11 +22,11 @@ function Nav() {
       <nav className="cyan darken-2">
         <div className="nav-wrapper">
           <a href="/" className="brand-logo left">Santiago MVO</a>
-          <a href="#" data-target="ham-nav" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
+          <a href="#menu" data-target="ham-nav" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li className={locationState === "/" ? "active" : "not-active"}><a href="/">About</a></li>
             <li className={locationState === "/projects" ? "active" : "not-active"}><a href="/projects">Projects</a></li>
-            <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contant">Contact</a></li>
+            <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -34,7 +34,7 @@ function Nav() {
     <ul className="sidenav right" id="ham-nav">
       <li className={locationState === "/" ? "active" : "not-active"}><a href="/">About</a></li>
       <li className={locationState === "/projects" ? "active" : "not-active"}><a href="/projects">Projects</a></li>
-      <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contant">Contact</a></li>
+      <li className={locationState === "/contact" ? "active" : "not-active"}><a href="/contact">Contact</a></li>
     </ul>
   </>
   );

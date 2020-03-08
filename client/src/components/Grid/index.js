@@ -12,11 +12,11 @@ export function Container({children}) {
 }
 
 // This Row component lets us use a materialize row without having to think about class names
-export function Row({children }) {
-  return <div className={"row"}>{children}</div>;
+export function Row({children}) {
+  return <div className={`row`}>{children}</div>;
 }
 
 // This Col component lets us size materialize columns with less syntax
 export function Col({ size, children, center }) {
-  return <div className={`col ${size} ${center?"center":"left"}`}>{children}</div>;
+  return <div className={`col ${size||""} ${center?"center":"left"}`}>{children}</div>;
 }
