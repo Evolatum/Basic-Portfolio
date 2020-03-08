@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
    var mailOptions = {
      from: process.env.user,
      to: process.env.mailTo,
-     subject: `PF Mail from ${req.body.name} ${req.body.email} ${req.body.phone?`(tel:${req.body.phone})`:"(no phone)"}`,
+     subject: `${req.body.name} | mailto:${req.body.email} | ${req.body.phone?`tel:${req.body.phone}`:"(no phone)"}`,
      text: req.body.message
    };
    
