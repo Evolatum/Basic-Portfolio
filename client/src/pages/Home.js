@@ -30,9 +30,9 @@ function Home() {
       <Row>
         <Col size="s12">
           <div className="row center">
-            <a href="https://docs.google.com/document/d/1wVLOKYvdWzK5wsPri1TnOVKKDRv46IA1eJwwTIvHIA0/edit?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1Mu5018WFrpk9bglNP5-mPiI-Q2S6jdK8/view?usp=sharing" 
             className="btn-large waves-effect waves-light cyan" target="_blank" rel="noopener noreferrer">CV ENG</a>&nbsp;&nbsp;
-            <a href="https://docs.google.com/document/d/1mT0pvUKIP9EwCIu72oahvS4pDSK8GUbndFSqGaFyHNk/edit?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1gkljVzI65qUcMq4WekI9bnK6DAqb7VLc/view?usp=sharing" 
             className="btn-large waves-effect waves-light cyan" target="_blank" rel="noopener noreferrer">CV ESP</a>
           </div>
         </Col>
