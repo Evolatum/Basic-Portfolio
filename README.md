@@ -1,3 +1,7 @@
 # Portfolio
 
-Full Stack Web Developer with a background in motion graphics and 2D animation, certified in Full Stack Development through a bootcamp imparted in conjunction by Tecnológico de Monterrey and Trilogy Education Services. Skills in HTML, CSS, JS, Node.js, Express, React, Mongo and MySQL; with strengths in responsive web design and meeting deadlines. Great problem-solver with creative and quick solutions that feel right to the end user. Looking forward to developing and improving on websites and web-based applications as we evolve with web design.
+The app has a landing page that displays information about me and the stack I use (MERN), links to CV in both english and spanish, and a brief explanation of responsive web design.
+
+The projects page contains highlited projects, each with an image, page link, GitHub link, and brief description of what it is, what I did, and the technologies used.
+
+The contact page allows users to send emails directly to me (without needing to log in) and contains links to both my GitHub and LinkedIn pages.
