@@ -97,7 +97,7 @@ function Home() {
       <Row>
         <Col size="s12" center>
           <IconLink link="https://github.com/Evolatum" icon="github-square"/>
-          <IconLink link="http://linkedin.com/in/santiago-martinez-vara-62b301109" icon="linkedin"/>
+          <IconLink link="www.linkedin.com/in/santiago-mvo" icon="linkedin"/>
         </Col>
       </Row>
 
