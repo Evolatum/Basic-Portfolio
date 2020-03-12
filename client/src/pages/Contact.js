@@ -62,13 +62,13 @@ function Home() {
             <Row>
               <div className="input-field col l4 s12">
                 <i className="material-icons prefix">account_circle</i>
-                <input id="icon_prefix" type="text" className="validate"
+                <input id="icon_prefix" type="text" className="validate" required
                 value={nameState} onChange={e=>setNameState(e.target.value)}/>
                 <label htmlFor="icon_prefix">Name<sup>*</sup></label>
               </div>
               <div className="input-field col l4 s12">
                 <i className="material-icons prefix">email</i>
-                <input id="icon_email" type="email" className="validate"
+                <input id="icon_email" type="email" className="validate" required
                 value={emailState} onChange={e=>setEmailState(e.target.value)}/>
                 <label htmlFor="icon_email">Email<sup>*</sup></label>
               </div>
@@ -81,7 +81,7 @@ function Home() {
             </Row>
             <Row>
               <div className="input-field col s12">
-                <textarea id="textarea1" className="materialize-textarea"
+                <textarea id="textarea1" className="materialize-textarea" required
                 value={messageState} onChange={e=>setMessageState(e.target.value)}/>
                 <label htmlFor="textarea1">Message<sup>*</sup></label>
               </div>
@@ -98,6 +98,7 @@ function Home() {
         <Col size="s12" center>
           <IconLink link="https://github.com/Evolatum" icon="github-square"/>
           <IconLink link="www.linkedin.com/in/santiago-mvo" icon="linkedin"/>
+          <IconLink link="mailto:santiago.mvao@gmail.com" icon="envelope-square" fas/>
         </Col>
       </Row>
 

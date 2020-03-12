@@ -1,9 +1,9 @@
-.fab{
+.fab,.fas{
     color: #00bcd4;
     font-size: 55px;
     margin: 5px 20px;
 }
 
-.fab:hover{
+.fab:hover,.fas:hover{
     color: #0097a7;
 }

@@ -53,7 +53,7 @@
         "linkGithub":"https://github.com/Evolatum/burger",
         "content":"A Handlebars.js exercise app thats logs burgers with MySQL and a homemade ORM. Styled using Bootstrap with a unique color palette.",
         "image":"burger.PNG",
-        "hidden":false
+        "hidden":true
     },
     {
         "title":"Friendbook",
@@ -69,7 +69,7 @@
         "linkGithub":"https://github.com/Evolatum/Train-Scheduler",
         "content":"A Firebase exercise app that saves train time data and provides up-to-date information with Moment.js. Styled using Bootstrap.",
         "image":"train.PNG",
-        "hidden":false
+        "hidden":true
     },
     {
         "title":"GIFer",
@@ -93,7 +93,7 @@
         "linkGithub":"https://github.com/Evolatum/RPG",
         "content":"An RPG exercise game using JS Classes and jQuery to respond to user choices. Styled using Bootstrap with images created with Reroll app.",
         "image":"RPG.PNG",
-        "hidden":false
+        "hidden":true
     },
     {
         "title":"Hangman",
